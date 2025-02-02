@@ -13,7 +13,7 @@ const PatientDashboard = () => {
   const [connectionStatus, setConnectionStatus] = useState('Not connected');
   const [isInitialized, setIsInitialized] = useState(false);
 
-  const LIGHTHOUSE_API_KEY = 'ee48876f.fc01546ea3d840239d80ceef86bcb108'; // Replace with your actual API key
+  const LIGHTHOUSE_API_KEY = ''; // Replace with your actual API key
 
   // Initialize Web3 and Contract
   useEffect(() => {
